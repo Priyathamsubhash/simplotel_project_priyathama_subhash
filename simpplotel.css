@@ -1,0 +1,82 @@
+nav {
+  align-items: center;
+  background-color: white;
+  height: 24px;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  float: right;
+  list-style: none;
+}
+nav li a {
+  color: black;
+  margin-right: 4vw;
+  text-decoration: none;
+}
+
+.background-image {
+  background-image: url("./img1.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.lorem_ipsum_card {
+  color: white;
+  background-color: rgba(208, 56, 56, 0.667);
+  width: 30vw;
+  position: relative;
+  top: 30vh;
+  left: 10vw;
+  padding: 15px;
+}
+.Sec_page_background {
+  background-image: linear-gradient(to right, rgb(249, 135, 154), rgb(240, 232, 85));
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.Food_cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Food_Card {
+  margin-top: 13vh;
+  text-align: center;
+  background-color: white;
+  height: fit-content;
+  width: 15vw;
+  padding: 30px;
+  border-radius: 0px 40px 0px 40px;
+}
+.Food_img {
+  height: 30vh;
+  width: 15vw;
+  border-radius: 0px 40px 0px 0px;
+}
+.order_now {
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  font-size: 50px;
+}
+.order_button {
+  padding: 10px;
+  margin-top: 10vh;
+  border-radius: 25px;
+  height: 7vh;
+  width: 12vw;
+  border-width: 0px;
+  background-color: rgb(210, 161, 170);
+  font-weight: bold;
+  font-size: large;
+}
+.order_button:hover {
+  background-color: antiquewhite;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
