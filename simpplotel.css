@@ -3,6 +3,7 @@ nav {
   background-color: white;
   height: 24px;
   padding: 10px;
+  width: 100vw;
 }
 
 nav ul {
@@ -32,7 +33,11 @@ nav li a {
   padding: 15px;
 }
 .Sec_page_background {
-  background-image: linear-gradient(to right, rgb(249, 135, 154), rgb(240, 232, 85));
+  background-image: linear-gradient(
+    to right,
+    rgb(249, 135, 154),
+    rgb(240, 232, 85)
+  );
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -43,7 +48,7 @@ nav li a {
   justify-content: space-evenly;
 }
 .Food_Card {
-  margin-top: 13vh;
+  margin-top: 10vh;
   text-align: center;
   background-color: white;
   height: fit-content;
@@ -67,7 +72,7 @@ nav li a {
   margin-top: 10vh;
   border-radius: 25px;
   height: 7vh;
-  width: 12vw;
+  width: 14vw;
   border-width: 0px;
   background-color: rgb(210, 161, 170);
   font-weight: bold;
@@ -79,4 +84,38 @@ nav li a {
 * {
   padding: 0;
   margin: 0;
+}
+@media screen and (max-width: 600px) {
+  .background-image {
+    background-image: url("./img1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+  .Food_cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 32vw;
+  }
+  .Food_Card {
+    text-align: center;
+    background-color: white;
+    height: fit-content;
+    width: 30vw;
+    padding: 15px;
+    border-radius: 0px 40px 0px 40px;
+  }
+  .Food_img {
+    padding-top: 6px;
+    height: 20vh;
+    width: 25vw;
+    border-radius: 0px 40px 0px 0px;
+  }
+
+  .Sec_page_background {
+    background-size: cover;
+    height: fit-content;
+    width: 100vw;
+  }
 }
