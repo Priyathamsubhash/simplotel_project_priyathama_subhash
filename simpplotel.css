@@ -86,12 +86,6 @@ nav li a {
   margin: 0;
 }
 @media screen and (max-width: 600px) {
-  .background-image {
-    background-image: url("./img1.jpg");
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-  }
   .Food_cards {
     display: flex;
     flex-direction: column;
@@ -118,4 +112,13 @@ nav li a {
     height: fit-content;
     width: 100vw;
   }
+
+nav li a {
+  color: black;
+  margin-right: 2vw;
+  text-decoration: none;
+}
+.order_button{
+  margin-bottom: 30px;
+}
 }
